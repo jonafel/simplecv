@@ -2,10 +2,24 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Jonathan Felix P. K. Aji CV")
+
+page_pg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+background: linear-gradient(90deg, #4f0f99, rgba(220, 39, 196, 1), #ff90a8)
+}
+
+[data-testid="stHeader"] {
+background-color: rgba(0,0,0,0);
+}
+</style>
+"""
+
+st.markdown(page_pg_img, unsafe_allow_html=True)
 image_path = 'assets/Images/mamas.jpg'
-col1, col2, col3 = st.columns([1,2,1])
+col1, col2, col3 = st.columns([1,1,1])
 with col2:
-    st.image(image_path, width=200)
+    st.image(image_path, width=250)
 
 st.markdown("""
 <style>
@@ -86,6 +100,8 @@ with col_1:
     * Jujur
     * Komunikasi
     * Manajemen
+    * Marketing
+    * Editing Audio         
     ''')
 
 with col_2:
@@ -96,5 +112,7 @@ with col_2:
     * Corversational English
     * Mudah Berbaur
     * Bertanggung Jawab
+    * Kreatif
+    * Editing Video
     ''')
 
