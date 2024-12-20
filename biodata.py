@@ -26,7 +26,7 @@ Kristen Protestan ||
 24 April 1993 ||
 0812-9664-2060 ||
 jonathanfelixaji@gmail.com ||
-Tambun Selatan, Kab. Bekasi, Indonesia
+Tambun Selatan, Kabupaten Bekasi, Indonesia
 
 ''')
 st.subheader('Summary')
