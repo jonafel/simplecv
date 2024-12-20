@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Jonathan Felix P. K. Aji CV")
 image_path = 'assets/Images/mamas.jpg'
 col1, col2, col3 = st.columns([1,2,1])
-with col3:
+with col2:
     st.image(image_path, width=200)
 
 st.markdown("""
